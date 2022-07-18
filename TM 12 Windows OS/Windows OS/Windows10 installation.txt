@@ -1,0 +1,56 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+--------------------------------------------
+
+1.
+To create a new virtual machine, you need to start VirtualBox. On the host where you installed Oracle VDI and VirtualBox, select the Applications menu on the desktop, then the System Tools menu, and then Oracle VM VirtualBox. Alternatively, you can run the VirtualBox command in a terminal. 
+The Oracle VM VirtualBox Manager is displayed.
+In the toolbar, click the New button. The New Virtual Machine Wizard is displayed in a new window.
+Click the Next button to move though the various steps of the wizard. The wizard enables you to configure the basic details of the virtual machine. On the VM Name and OS Type step, enter a descriptive name for the virtual machine in the Name field and select the operating system and version that you are going to install from the drop-down lists,
+On the Memory step, you can simply accept the default. This is the amount of host memory (RAM) that VirtualBox assigns to the virtual machine when it runs. You can change the settings of the virtual machine later, when you import the template into Oracle VDI.
+
+On the Virtual Hard Disk step, ensure Start-up Disk is selected, select Create new hard disk and click Next. The Virtual Disk Creation Wizard is displayed in a new window so you can create the new virtual disk.
+
+On the following steps, select VDI as the file type, Dynamically allocated as the storage details, and accept the defaults for the virtual disk file location and size, and then click Create to create the virtual disk.
+
+When the virtual disk is created, the Virtual Disk Creation Wizard is closed and you are returned to the Summary step of the New Virtual Machine Wizard. Click Create to create the virtual machine. The wizard is closed and the newly-created virtual machine is listed in Oracle VM VirtualBox Manager.
+Since you want to install an operating system in the virtual machine, you need to make sure the virtual machine can access the installation media. To do this, you edit the virtual machine settings. In Oracle VM VirtualBox Manager, select the virtual machine and then in the toolbar click the Settings button.
+ The Settings window is displayed. In the navigation on the left, select Storage.
+In the Storage Tree section, select Empty below the IDE Controller. The CD/DVD Drive attributes are displayed. Click the CD/DVD icon next to the CD/DVD Drive drop-down list and select the location of the installation media, as follows:
+
+To connect the virtual CD/DVD drive to the host's physical CD/DVD drive, select Host Drive <drive‑name>.
+
+To insert an ISO image in the virtual CD/DVD drive, select Choose a virtual CD/DVD disk file and browse for the ISO image.
+Click OK to apply the storage settings. The Settings window is closed. If you connected the virtual machine's CD/DVD drive to the host's physical CD/DVD drive, insert the installation media in the host's CD/DVD drive now. You are now ready to start the virtual machine and install the operating system.
+
+In Oracle VM VirtualBox Manager, select the virtual machine and click the Start button in the toolbar. A new window is displayed, which shows the virtual machine booting up. Depending on the operating system and the configuration of the virtual machine, VirtualBox might display some warnings first. It is safe to ignore these warnings. 
+The virtual machine should boot from the installation media.
+
+--------------------------------------------
+
+2.
+Press Windows key + X.
+Select Control Panel.
+Click on User accounts.
+Under make changes to your account, click on Manage another account.
+Select the account which you want to change.
+Now click on change the account type.
+Select Administrator and click on Change the Account Type to change the account type to administrator account.
+Now check if you are able to install application/software.
+
+--------------------------------------------
+
+3.
+hostname [options] [new_hostname]
+Use the -s or --short option to display the short version of the hostname, which is cut off at the first dot:
+hostname -s
+hostname --short
+Use the -F or --file option to search a specific file (such as hostname or hosts) and change your computer’s hostname to match the content of the file:
+
+sudo hostname -F [file path]
+sudo hostname --file [file path]
+If you don’t want to have a specific file containing the hostname, or want to leave that file empty, use the -b or --boot option. This makes your computer use the default hostname (localhost) until you set a different one:
+
+hostname -b
+hostname --boot

@@ -1,0 +1,110 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+
+11.Capture current date in a variable and display all the property values of that.
+
+cmdlet : $variable_name=Get-date
+
+PS C:\Users\tekraj\Desktop> $date_var=Get-date
+PS C:\Users\tekraj\Desktop> $date_var
+
+28 March 2022 08:05:17
+
+---------------------------------------------------------------
+
+12.Display the IP(v4) address of your system using a powershell script.
+
+//testscript.ps1
+
+$ipv4 = (Get-NetIPAddress | Where-Object {$_.AddressState -eq "Preferred" -and $_.ValidLifetime -lt "24:00:00"}).IPAddress
+$ipv4
+
+PS C:\Users\tekraj> Get-NetIPAddress -AddressFamily IPv4
+
+IPAddress         : 192.168.56.1
+InterfaceIndex    : 7
+InterfaceAlias    : VirtualBox Host-Only Network
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 24
+PrefixOrigin      : Manual
+SuffixOrigin      : Manual
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 169.254.150.37
+InterfaceIndex    : 17
+InterfaceAlias    : Local Area Connection* 2
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 16
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Tentative
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 169.254.9.201
+InterfaceIndex    : 12
+InterfaceAlias    : Local Area Connection* 1
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 16
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Tentative
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 169.254.9.244
+InterfaceIndex    : 11
+InterfaceAlias    : Ethernet
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 16
+PrefixOrigin      : WellKnown
+SuffixOrigin      : Link
+AddressState      : Tentative
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 192.168.43.22
+InterfaceIndex    : 9
+InterfaceAlias    : WiFi
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 24
+PrefixOrigin      : Dhcp
+SuffixOrigin      : Dhcp
+AddressState      : Preferred
+ValidLifetime     : 00:59:31
+PreferredLifetime : 00:59:31
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+IPAddress         : 127.0.0.1
+InterfaceIndex    : 1
+InterfaceAlias    : Loopback Pseudo-Interface 1
+AddressFamily     : IPv4
+Type              : Unicast
+PrefixLength      : 8
+PrefixOrigin      : WellKnown
+SuffixOrigin      : WellKnown
+AddressState      : Preferred
+ValidLifetime     : Infinite ([TimeSpan]::MaxValue)
+PreferredLifetime : Infinite ([TimeSpan]::MaxValue)
+SkipAsSource      : False
+PolicyStore       : ActiveStore
+
+
+---------------------------------------------------------------

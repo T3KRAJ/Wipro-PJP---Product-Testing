@@ -1,0 +1,137 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+--------------------------------------------
+
+1. 
+Select the Start  button, then select Settings > System > About .
+Open About settings
+
+At the right, under Device specifications, see System type.
+
+win key +R>type msinfo32>enter
+
+If it is 64 bit it will say so otherwise it is 32bit
+
+Then the "System Information" is running.
+Then as ZigZag3143's picture, under "System Summary", you could find that the "System Type" is "x64-based PC" (or "x86-based PC", or others).
+
+Also could execute the following operations in the graphical interface tool to get the same results:
+Right-click Start button (or press-and-hold Start button, or press Win+X), then click "System" (or tap "System", or Press Y),
+then "Control Panel\System and Security\System" window pops up, for example, I could find the following words in it:
+"System type: 64 bit Operating System, x64-based processor"
+Note：within the prompts above, before the comma, the "64 bit" points to the operating system's software architecture type; after the comma, the "x64-based" points to the computer's hardware architecture type.
+(BTW, also could right-click Start button, then click "Control Panel", then select "Control Panel -> System and Security -> System", can get the same results too.)
+
+The command line operation below can get the same results too.
+Could open a "Command Prompt (Admin)" window by one of the following three ways ('I. Keyboard' or 'II. Mouse' or 'III. Touch'):
+I. Keyboard: Win+X, A, Alt+Y
+II. Mouse: rightclick Start button, click "Command Prompt (Admin)", click "Yes" button
+III. Touch: press-and-hold Start button, tap "Command Prompt (Admin)", tap "Yes" button
+
+Then in the "Command Prompt (Admin)" window, could run the following command to view the software architecture type of OS:
+[Type or paste the command]
+wmic os get osarchitecture
+[Hit or press the Enter key]
+(
+By the way, also could run the following command to view the hardware architecture type of PC:
+[Type or paste the command]
+wmic computersystem get systemtype
+[Hit or press the Enter key]
+)
+
+--------------------------------------------
+
+2.
+Press the key combination Win + Pause/Break
+Type “About your PC” in the Windows Start menu search
+To access the Task Manager, here are three simple options:
+
+Press the key combination Ctrl + Shift + Escape
+Press the key combination Ctrl + Alt + Delete and select “Task Manager”
+Type “Task Manager” in the Windows Start menu search.
+
+--------------------------------------------
+
+3.
+Task Manager->Performance Tab
+Open Windows terminal or command prompt and type the following command:
+
+systeminfo
+
+--------------------------------------------
+
+4.
+From the Start menu, select All apps, then Oracle - HOMENAME, then Oracle Installation Products, then Universal Installer.
+In the Welcome window, click Installed Products to display the Inventory dialog box.
+To check the installed contents, find the Oracle Database product in the list.
+To find additional information about an installed product, click Details.
+
+To check the directory location of the installed contents, click the Environment tab.
+Click Close to exit the Inventory dialog box.
+Click Cancel to exit Oracle Universal Installer, then click Yes to confirm.
+
+--------------------------------------------
+
+5.
+t Start  > Settings  > Privacy  > Diagnostics & feedback and in Windows 11 at Start  > Settings  > Privacy & security > Diagnostics & feedback.
+To change the Diagnostic data setting
+
+Do one of the following:
+
+In Windows 10, go to Start , then select Settings  > Privacy > Diagnostics & feedback.
+
+In Windows 11, go to Start , then select Settings  > Privacy & security > Diagnostics & feedback.
+
+Under Diagnostic data, select the option you prefer. 
+If the options are unavailable, you may be using a device managed by your workplace or organization.
+In that case, you'll see Some settings are hidden or managed by your organization at the top of the Diagnostics & feedback screen.
+
+--------------------------------------------
+
+6.
+
+Click Start, click Run, type mmc in the Open box, and then click OK.
+
+On the File menu, click Add/Remove Snap-in.
+
+Click Add, click Security Configuration and Analysis, click Add, click Close, and then click OK.
+
+In the console tree, right-click Security Configuration and Analysis, and then click Open Database.
+
+Specify a name and location for the database, and then click Open.
+
+In the Import Template dialog box that appears, click the security template that you want to import, and then click Open.
+
+In the console tree, right-click Security Configuration and Analysis, and then click Analyze Computer Now.
+
+In the Perform Analysis dialog box that appears, accept the default path for the log file that is displayed in the Error log file path box or specify the location that you want, and then click OK.
+
+After the analysis is complete, configure the service permissions as follows:
+
+In the console tree, click System Services.
+In the right pane, double-click the service whose permissions you want to change.
+Click to select the Define this policy in the database check box, and then click Edit Security.
+To configure permissions for a new user or group, click Add. In the Select Users, Computers,
+ or Groups dialog box, type the name of the user or group that you want to set permissions for, and then click OK.
+In the Permissions for User or Group list, configure the permissions that you want for the user or group.
+ When you add a new user or group, the Allow check box next to the Start, stop and pause permission is selected by default. This setting permits the user or group to start, stop, and pause the service.
+Click OK two times.
+To apply the new security settings to the local computer, right-click Security Configuration and Analysis,
+ and then click Configure Computer Now.
+
+--------------------------------------------
+
+7.
+Test your microphone sound 
+Adjust your microphone 
+Perform firmware updates 
+Know if your headset is defective. 
+
+
+
+
+
+
+
+

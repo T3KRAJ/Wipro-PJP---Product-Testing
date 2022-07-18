@@ -1,0 +1,12 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+1. Find first 10 odd numbers
+
+for($x=1; $x -lt 10; $x=$x+1)   
+>>  {   
+>> $res=$i%2  
+>> if($res -ne 0)  
+>> {  
+>> echo "$i"  
+>> } 

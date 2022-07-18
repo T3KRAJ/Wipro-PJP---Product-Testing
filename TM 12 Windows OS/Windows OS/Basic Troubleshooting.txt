@@ -1,0 +1,33 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+--------------------------------------------
+
+1.
+In the search box on the taskbar, type remote assistance again and select Invite someone to connect to your PC and help you, or offer to help someone else.
+
+Select Invite someone you trust to help you. 
+
+Do one of the following: If you've never used Easy Connect, select Use Easy Connect. If you've used Easy Connect before, select your helper’s contact name. To invite someone who isn't on your contact list, select Invite someone to help you.
+
+Follow the instructions.
+
+To give help if someone has requested it:
+
+Go to the search box and enter remote assistance, then select Invite someone to connect to your PC and help you, or offer to help someone else.
+
+Select Help someone who has invited you.
+
+Do one of the following: If you’re using Easy Connect for the first time, select Use Easy Connect. Or, if you’ve used Easy Connect before, select the contact name of the person you want to help. To help someone not on the list, tap or click Help someone new.
+
+Follow the instructions.
+
+--------------------------------------------
+
+2.
+1. Set up the remote PC to allow remoting connections.
+2. Look up the IP address of the remote computer.
+3. Note down the user account and password of computer in virtual machine.
+4. Allow Remote Desktop connection through Windows Firewall.
+Step 1: Open the Control Panel. Then click System and Security > Windows Firewall.
+Step 2: Click on the Change Settings button. Then check the Remote Desktop. When done, click OK.

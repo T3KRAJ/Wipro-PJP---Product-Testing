@@ -1,0 +1,5 @@
+Using argparse module
+is a better option than the hello hello hello
+above two options as it provides a lot of options such as
+positionasdsl arguments, default value for arguments, help message,
+specifying data type of argument etc. Hello meHello meHello me

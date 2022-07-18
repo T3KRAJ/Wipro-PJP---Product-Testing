@@ -1,0 +1,26 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+--------------------------------------------
+
+1.
+The file is the basic unit in the SunOS operating system. Almost everything is treated as a file, including:
+
+Documents--These include text files, such as letters or reports, computer source code, or anything else that you write and want to save.
+
+Commands--Most commands are executable files; that is, they are files you can execute to run a particular program. For example, the date command that you saw in the previous chapter, which executes a program that provides the current date, is an executable file.
+
+Devices--Your terminal, printer, and disk drive(s) are all treated as files.
+
+Directories--A directory is simply a file that contains other files.
+
+The following section explains the commands available for creating, listing, copying, moving, and deleting files. You'll also see how to list the contents of a file and how to determine the nature of a file.
+
+$ cd
+$ pwd
+/export/home/username
+
+$ touch tempfile
+$ 
+
+

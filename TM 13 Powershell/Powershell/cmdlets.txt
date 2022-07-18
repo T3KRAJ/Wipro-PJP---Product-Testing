@@ -1,0 +1,30 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+1. Store the help of all the Set cmdlets in a file -Help.txt
+
+get-help | Out-File -FilePath .\Desktop\Help.txt
+
+storing the output of get-help cmdlet in text file called Help.txt.
+
+---------------------------------------------------------------
+
+2. Find out the services which are in "running status" and starts with letter "s".
+
+cmdlet : Get-Services s* | Format-Table -wrap (or) Get-Service s*
+
+---------------------------------------------------------------
+
+3. Display date in 12 hours format and 24 hour format
+
+12hrs
+cmdlet : PS C:\Users\tekraj>  Get-Date -Format "hh:mm"
+07:52
+cmdlet : Get-Date -Format "HH:mm"
+
+PS C:\Users\tekraj> Get-Date -Format "HH:mm"
+>>
+07:53
+
+PS C:\Users\tekraj> Get-Date -Format "hh:mm"
+07:53

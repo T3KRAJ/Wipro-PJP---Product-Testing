@@ -1,0 +1,52 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+1.Create a link of PowerShell on your Desktop.
+
+Step 1: Right-click any blank area on the desktop, point at New on the context menu and choose Shortcut in the sub-menu. 
+
+Step 2: Type the following location of Windows PowerShell, and tap Next to move on. 
+
+Step 3: Enter Windows PowerShell as the shortcut's name, and click Finish to complete creating this shortcut.
+
+Step 4: Similarly create shortcut for Powershell_ISE in dekstop by using 
+above three steps
+
+Step 5: Right click on the shortcuts and click properties, select advanced 
+option and select run as administrator profile.
+
+--------------------------------------------------------------------------
+
+2.Change the width of the window panel to 70 and height to 120.
+
+Step 1: Start Windows PowerShell.
+
+Step 2: Right-click the icon in the upper left corner of the title bar and then click Properties.
+
+Step 3: On the Layout tab set the desired width and height as 70 and 120.
+
+
+---------------------------------------------------------------------------
+
+3.Change the buffer to 9999.
+
+Step 1: Start Windows PowerShell.
+
+Step 2: Right-click the icon in the upper left corner of the title bar and then click Properties.
+
+Step 3: On the Layout tab set the screen buffer size to 9999.
+
+
+---------------------------------------------------------------------------
+
+4.Ser the bg color to white and font color to black.
+
+Step 1: Start Windows PowerShell.
+
+Step 2: Right-click the icon in the upper left corner of the title bar and then click Properties.
+
+Step 3: Click the Colors tab and now set Screen background as white and 
+Screen Text as black.
+
+
+---------------------------------------------------------------------------

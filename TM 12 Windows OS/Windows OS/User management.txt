@@ -1,0 +1,45 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+--------------------------------------------
+
+1.
+
+Open Hyper-V Manager by either pressing the Window's key and typing "Hyper-V Manager" or by finding Hyper-V Manager in your applications.
+
+In Hyper-V Manager, click Action > New > Virtual Machine to bring up the New Virtual Machine Wizard.
+
+Review the ‘Before You Begin’ content and click Next.
+
+Give the virtual machine a name.
+
+or
+Select Start > Settings > Accounts and then select Family & other users. (In some versions of Windows you'll see Other users.)
+
+Next to Add other user, select Add account. 
+
+Select I don't have this person's sign-in information, and on the next page, select Add a user without a Microsoft account.
+
+Enter a user name, password, or password hint—or choose security questions—and then select Next.
+
+--------------------------------------------
+
+2.
+
+Open the Active Directory Users and Computers console.
+
+In the navigation pane, select the container in which you want to store your group. This is typically the Users container under the domain.
+
+Click Action, click New, and then click Group.
+
+In the Group name text box, type the name for your new group.
+
+Note:  Be sure to use a name that clearly indicates its purpose. Check to see if your organization has a naming convention for groups.
+
+In the Description text box, enter a description of the purpose of this group.
+
+In the Group scope section, select either Global or Universal, depending on your Active Directory forest structure. If your group must include computers from multiple domains, then select Universal. If all of the members are from the same domain, then select Global.
+
+In the Group type section, click Security.
+
+Click OK to save your group.

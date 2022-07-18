@@ -1,0 +1,86 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+--------------------------------------------
+
+1.
+a)
+$ ls -a
+
+b)
+$ man [COMMAND NAME]
+
+c)
+$ touch Myfile1
+
+d)
+$ stat Myfile1
+
+e) 
+$ touch -a -m -t 203801181205.09 Myfile1
+
+f) 
+$ touch -a Myfile1
+
+--------------------------------------------------------
+
+2.
+a) 
+$touch prog1.c prog2.c app1.c app2.c app12.c app11.c prg1.java prg2.java
+
+b)
+$ ls -a
+
+c) 
+$ ls -d app*
+
+d) 
+$  ls -d app[1,2]*
+
+e)
+$ ls -d app[!2]*
+
+f) 
+$ rm *.c
+
+-------------------------------------------------------------
+
+3. 
+$ mkdir India Chennai Banglore Tamilnadu Munnar Kerala Karnataka
+
+a) 
+$ touch Munnar/place_to_see
+
+b) 
+$ cp Munnar/place_to_see India
+
+c)
+$ mv India/place_to_see India/very_good_place
+
+d)
+$ cd Chennai
+$ ls ../India
+
+e)
+$ rm ../Munnar/place_to_see
+
+f)
+$ $ rmdir ../banglore
+
+---------------------------------------------------------
+
+6.
+a) 
+$ find /etc -type f -name "*.conf" 
+
+b) 
+$ find /etc -type f -name "*.conf" -size -10k
+
+c)
+$ find / -size +100k -mtime +180 -type f -print
+
+d)
+$ find / -size +800b -mtime +7 -type f -print
+
+----------------------------------------------------------
+

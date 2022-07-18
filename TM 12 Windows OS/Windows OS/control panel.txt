@@ -1,0 +1,63 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+--------------------------------------------
+
+1.
+Right-click My Computer, and then click Properties.
+On the Advanced tab, click Settings under Startup and Recovery.
+Under System Startup, click Edit. This opens the file in Notepad ready for editing.
+In Notepad, click File on the Menu bar, and then click Save As.
+Right click in an empty area of the Save As dialog box, point to New in the context menu, and then click Folder.
+Type a name for the new folder, for example temp ini file, and then press the ENTER key to create the folder named temp.
+Double-click the new folder named temp, and then click the Save button to save a backup copy of the Boot.ini file.
+Edit the Boot.ini File To view and edit the Boot.ini file (after seeing before and after sample below):
+
+Right-click My Computer, and then click Properties.
+On the Advanced tab, click Settings under Startup and Recovery.
+Under System Startup, click Edit.
+Add space /3GB to end of last line of boot.ini file
+Click on File>Save>Exit
+Sample Boot.ini File Before and After Changing To Increase Virtual Memory
+This is a sample of a default Boot.ini file from a 32 bit Windows XP Home Edition computer.
+
+[boot loader]
+timeout=30
+default=multi(0)disk(0)rdisk(0)partition(2)\WINDOWS
+[operating systems]
+multi(0)disk(0)rdisk(0)partition(2)\WINDOWS="Microsoft Windows XP Home Edition" /fastdetect /NoExecute=OptIn
+This is the same Boot.ini file above only modified for virtual memory extension to 3 GB:
+
+[boot loader]
+timeout=30
+default=multi(0)disk(0)rdisk(0)partition(2)\WINDOWS
+[operating systems]
+multi(0)disk(0)rdisk(0)partition(2)\WINDOWS="Microsoft Windows XP Home Edition" /fastdetect /NoExecute=OptIn /3GB
+Open the Boot.ini File to Verify Changes
+
+Right-click My Computer, and then click Properties.
+On the Advanced tab, click Settings under Startup and Recovery.
+Under System Startup, click Edit.
+Observe change was made correctly
+If OK, click on File>Exit to exit out of edit mode
+Reboot Windows for the changes to take effect.
+
+Start Up X-Plane, File>Quit, and then look in the X-Plane folder at the log.txt file to verify virtual memory is now 3GB.
+
+--------------------------------------------
+
+2.
+Left click on Start. Left click on Settings. Left click on Control Panel. 
+Double-left click on Regional Settings. 
+Left click on the tab labeled General at the top of the screen that appears.
+ Keep the Your Locale (Location) as English (United states).
+ On the same screen, under Language Settings for the System, tick the Arabic box. 
+Now left click on the Apply button located on the bottom right. 
+If your operating system needs additional files to run this function you will be asked to insert the necessary CDs. 
+If these files have already been installed on your operating system, they will self-install. 
+You may be requested to restart the computer. Do so.
+
+For users of all other versions of Windows, abide by what follows:
+
+Left click on Start. Left click on Settings. Left click on Control Panel. Double-left click on Keyboard.
+ Left click on the tab labeled Language at the top of the screen that appears. To add Arabic, left click on Add and scroll down to find Arabic.

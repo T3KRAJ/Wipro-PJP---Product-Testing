@@ -1,0 +1,20 @@
+# Tek Raj Joshi
+# Superset ID: 1368453
+
+1. Create an array of the topics you will learn in TRP1.
+
+$arr="Variables","IntroTOPowerShell","cmdlets","Arrays and HashTables","loops","WMI","Modules","Functions"
+$arr
+
+OUTPUT:-
+
+PS C:\Users\prabu> $arr="Variables","IntroTOPowerShell","cmdlets","Arrays and HashTables","loops","WMI","Modules","Functions"
+>> $arr
+Variables
+IntroTOPowerShell
+cmdlets
+Arrays and HashTables
+loops
+WMI
+Modules
+Functions
